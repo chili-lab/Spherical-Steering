@@ -99,11 +99,14 @@ See `generic/README.md` for details.
 If you find this work useful, please cite:
 
 ```bibtex
-@article{spherical-steering-2026,
-  title={Spherical Steering: Geometry-Aware Activation Rotation for Language Models},
-  author={},
-  journal={},
-  year={2026}
+@misc{you2026sphericalsteeringgeometryawareactivation,
+      title={Spherical Steering: Geometry-Aware Activation Rotation for Language Models}, 
+      author={Zejia You and Chunyuan Deng and Hanjie Chen},
+      year={2026},
+      eprint={2602.08169},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2602.08169}, 
 }
 ```
 
