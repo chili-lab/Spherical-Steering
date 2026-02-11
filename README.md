@@ -1,6 +1,6 @@
 # Spherical Steering: Geometry-Aware Activation Rotation for Language Models
 
-*Spherical Steering* is a inference-time activation steering method for controlling language models via geometry-consistent interventions. Instead of the standard activation addition, Spherical Steering performs a rotation: it treats steering as a directional update in representation space and rotates hidden activations along a geodesic toward a target direction, while keeping activation magnitudes intact.
+*Spherical Steering* is an inference-time activation steering method for controlling language models via geometry-consistent interventions. Instead of the standard activation addition, Spherical Steering performs a rotation: it treats steering as a directional update in representation space and rotates hidden activations along a geodesic toward a target direction, while keeping activation magnitudes intact.
 
 This code base contains the code to replicate the experiments presented in the paper "Spherical Steering: Geometry-Aware Activation Rotation for Language Models".
 
