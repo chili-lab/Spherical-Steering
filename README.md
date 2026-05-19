@@ -1,8 +1,6 @@
 <div align="center">
 
-# Spherical Steering
-
-### Geometry-Aware Activation Rotation for Language Models
+# Spherical Steering: Geometry-Aware Activation Rotation for Language Models
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.08169-b31b1b.svg)](https://arxiv.org/abs/2602.08169) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
