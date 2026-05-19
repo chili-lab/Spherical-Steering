@@ -1,4 +1,10 @@
-**Evaluation pipeline for multiple-choice reasoning benchmarks beyond TruthfulQA.**
+<div align="center">
+
+### Evaluation Pipeline for Multiple-Choice Reasoning Benchmarks beyond TruthfulQA
+
+</div>
+
+---
 
 ## Data
 
@@ -73,13 +79,10 @@ python evaluate_generic.py \
 
 ## Key Modules
 
-- `get_activations_generic.py`
-  - extract last-token hidden activations for training pairs
-- `get_prototypes_generic.py`
-  - compute contrastive prototypes from extracted features
-- `evaluate_generic.py`
-  - evaluate steering on benchmark tasks with MC1-style scoring
-- `utils_generic.py`
-  - dataset loaders, split rules, prompt formatting, feature extraction helpers
-- `quick_set_generic.sh`
-  - predefined multi-dataset run script with tuned hyperparameters
+| Module | Description |
+|---|---|
+| `get_activations_generic.py` | Extract last-token hidden activations for training pairs |
+| `get_prototypes_generic.py` | Compute contrastive prototypes from extracted features |
+| `evaluate_generic.py` | Evaluate steering on benchmark tasks with MC1-style scoring |
+| `utils_generic.py` | Dataset loaders, split rules, prompt formatting, feature extraction helpers |
+| `quick_set_generic.sh` | Predefined multi-dataset run script with tuned hyperparameters |
